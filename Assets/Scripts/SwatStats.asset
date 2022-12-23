@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942daa23a7ccb46bca6270a1ea772140, type: 3}
+  m_Name: SwatStats
+  m_EditorClassIdentifier: 
+  props:
+  - _class: 0
+    Damage: 10
+    AttackRange: 3
+    HP: 200
+    bDeath: 0
+    AttackTime: 3
+    ReloadTime: 2
+    spawnObjects: []
+  - _class: 1
+    Damage: 10
+    AttackRange: 15
+    HP: 40
+    bDeath: 0
+    AttackTime: 1
+    ReloadTime: 3
+    spawnObjects:
+    - {fileID: 2104628379317680400, guid: 8a623cc75e896064da68038b0e3da68e, type: 3}
+  - _class: 2
+    Damage: 0
+    AttackRange: 20
+    HP: 50
+    bDeath: 0
+    AttackTime: 1
+    ReloadTime: 2
+    spawnObjects: []
+  - _class: 3
+    Damage: 40
+    AttackRange: 30
+    HP: 100
+    bDeath: 0
+    AttackTime: 1
+    ReloadTime: 1
+    spawnObjects:
+    - {fileID: 3242103739215676701, guid: e581d78326fa98540892eaf371973176, type: 3}
+  - _class: 4
+    Damage: 50
+    AttackRange: 200
+    HP: 50
+    bDeath: 0
+    AttackTime: 3
+    ReloadTime: 3
+    spawnObjects:
+    - {fileID: 4104069184304111131, guid: d85f00179d0bc824283cf0dd8198e3ce, type: 3}
+  - _class: 5
+    Damage: 15
+    AttackRange: 15
+    HP: 50
+    bDeath: 0
+    AttackTime: 1
+    ReloadTime: 2
+    spawnObjects:
+    - {fileID: 3242103739215676701, guid: e581d78326fa98540892eaf371973176, type: 3}
